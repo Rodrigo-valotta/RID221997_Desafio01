@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    font-family: 'inter';   
+  
+}
+
+#titulo-menusuperior{
+    color: #FFFFFF;
+    margin-left: 50px; 
+    margin-top: 0px;
+    font-size: 60px;
+}
+
+#texto-menusuperior{
+    color: #FFFFFF;
+    margin-left: 50px;
+    margin-top: 15px;
+    padding-bottom: 130px;
+    font-size: 20px;
+}
+
+#menusuperior{
+    background-color: #303030;
+    background-image: url(./imagens/fundo-menusuperior.svg);
+    height: 475px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+#menuinformacional{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #F9F9F9;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    padding: 40px 0px;
+    color: #303030;
+}
+.item-informativo{
+    display: flex;
+    flex-direction: column;
+    align-items: left ;
+}
+
+.numero{
+font-size: 40px;
+}
+
+.texto{
+    font-size: 20px;
+}
+
+.item-informativo{
+color: #000000;
+}
+
+#historia{
+max-width: 1440px;
+margin: 0 auto;
+background-color: white;
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+}
+
+#titulo-historia{
+color: #000000;
+margin-top: 20px;
+font-size: 40px;
+margin-left: 50px;
+padding-top: 200px;
+
+}
+
+#texto-historia{
+    font-size: 24px;
+    color: #000000;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#foto{
+margin: 50px 50px 50px;
+}
+
+#formulario{
+max-width: 1440px;
+margin: 0 auto;
+background-color: #303030;
+text-align: center;
+background-image: url(./imagens/imagem-formulario.svg);
+padding: 80px 0px;
+}
+
+#titulo-formulario{
+color: #FFFFFF;
+font-size: 32px;
+margin-bottom: 40px;
+}
+
+input{
+    font-family: 'Raleway';
+    width: 508px;
+    height: 72px;
+    background-color: #FFFFFF;
+    border: 0px;
+    margin: 30px;
+    border-radius: 10px;
+    padding-left: 30px;
+    font-size: 24px;
+}
+
+button{
+    background-color: #C07212;
+    height: 74px;
+    width: 286px;
+    color: #FFFFFF;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 75px;
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+button:hover{
+    background-color: blue;
+    color: #FFFFFF;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #0510304b;
+    transition-duration: 0.5s;
+    border-radius: 5px;
+}
+
+
